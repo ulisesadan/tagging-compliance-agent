@@ -1,0 +1,13 @@
+name: tagging-compliance-cli-smoke
+agent:
+    name: tagging-compliance-agent
+    kind: hosted
+dataset:
+    name: tagging-compliance-cli-smoke
+    version: "1.0"
+evaluators:
+    - name: tagging-compliance-cli-smoke
+      version: "1"
+options:
+    eval_model: tagging-model
+max_samples: 15

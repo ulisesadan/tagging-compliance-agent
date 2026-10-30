@@ -1,0 +1,7 @@
+agent-framework-foundry==1.14.1
+agent-framework-foundry-hosting==1.0.0b261008
+debugpy==1.8.22
+azure-mgmt-resource==26.0.0
+azure-mgmt-resourcegraph==8.0.1
+azure-mgmt-subscription==3.1.1
+python-dotenv==1.2.4

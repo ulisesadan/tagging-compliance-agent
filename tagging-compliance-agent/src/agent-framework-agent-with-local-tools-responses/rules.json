@@ -1,0 +1,28 @@
+{
+  "priority_tag": "Application_Name",
+  "audit_tag_key": "Tagged_By_Agent",
+  "required_tags": [
+    "Application_Name",
+    "Entity",
+    "Organization",
+    "CCoE_ID_Number",
+    "CHG_Ticket",
+    "Resource_Groups",
+    "Resource_Description",
+    "Launch_Date"
+  ],
+  "placeholder_values": ["TBD", "tbd", "N/A", "TODO", ""],
+  "tag_format_regex": {
+    "CHG_Ticket": "^(CHG\\d{7})$",
+    "CCoE_ID_Number": "^\\d{2}-D?\\d{4}$"
+  },
+  "ignored_tag_keys": [
+    "Vendor", "ClusterId", "ClusterName", "JobId", "RunName",
+    "DatabricksEnvironment", "databricks-instance-name", "management_service",
+    "Application_Owner", "Application_Technical_Contact", "Distribution_List",
+    "Creator", "Full_Project_Name", "project", "SkipASMAzSecPackAutoConfig",
+    "AMLResourceType", "ComputeType", "AzureMLDeployment", "AzureMLEndpoint"
+  ],
+  "ignored_tag_key_prefixes": ["ms.inv.v0.", "platformsettings."],
+  "excluded_resource_group_patterns": ["^DATABRICKS-RG-"]
+}

@@ -1,0 +1,7 @@
+agent-framework-core>=1.0.0
+agent-framework-foundry>=1.0.0
+azure-identity>=1.17.0
+azure-ai-projects>=1.0.0
+azure-mgmt-resource>=23.1.0
+azure-mgmt-resourcegraph>=8.0.0
+azure-mgmt-subscription>=3.1.0
